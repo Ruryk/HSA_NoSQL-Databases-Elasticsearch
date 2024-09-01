@@ -13,7 +13,7 @@ async function checkElasticsearch(maxRetries = 12, delay = 5000) {
             break;
         } catch (error) {
             console.log('Waiting for Elasticsearch...');
-            await new Promise(resolve => setTimeout(resolve, 5000));
+            await new Promise(resolve => setTimeout(resolve, delay));
         }
     }
 }

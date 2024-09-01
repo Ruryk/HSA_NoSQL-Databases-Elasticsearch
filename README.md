@@ -37,3 +37,6 @@ GET /localhost:9200/autocomplete/_search
 
 ## Recommended Tools
 Postman: For testing the API endpoints.
+
+## NOTE
+words_alpha_full.txt - a dictionary of words, it can be used, but the initialization time is long
